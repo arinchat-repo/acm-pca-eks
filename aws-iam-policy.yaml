@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "awspcaissuerpolicy",
+            "Effect": "Allow",
+            "Action": [
+                "acm-pca:CreateCertificateAuthority",
+                "acm-pca:ListCertificateAuthorities",
+                "acm-pca:GetCertificate",
+                "acm-pca:GetCertificateAuthorityCertificate",
+                "acm-pca:IssueCertificate"
+            ],
+            "Resource": "arn:aws:acm-pca:us-east-2:<account_id>:certificate-authority/80d2007b-d8e0-4881-bbd7-9df9821826a1"
+        },
+        
+    ]
+}
