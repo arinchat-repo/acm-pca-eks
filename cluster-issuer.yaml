@@ -1,7 +1,7 @@
 apiVersion: awspca.cert-manager.io/v1beta1
 kind: AWSPCAClusterIssuer
 metadata:
-          name: acm-pca-example.com
+          name: cluster-issuer
 spec:
-          arn: arn:aws:acm-pca:<region>:<account-id>:certificate-authority/<resource_id>
-          region: <region>
+          arn: arn:aws:acm-pca:us-east-2:984495194077:certificate-authority/80d2007b-d8e0-4881-bbd7-9df9821826a1
+          region: us-east-2
