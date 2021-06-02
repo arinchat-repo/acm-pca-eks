@@ -11,7 +11,7 @@ spec:
   issuerRef:
     group: awspca.cert-manager.io
     kind: AWSPCAClusterIssuer
-    name: example
+    name: cluster-issuer
   renewBefore: 360h0m0s
   secretName: rsa-cert-2048
   usages:
